@@ -194,19 +194,24 @@ class GeneratorPage extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               ElevatedButton.icon(
+                style: ElevatedButton.styleFrom(
+                  side: BorderSide(color: theme.colorScheme.onPrimary),
+                ),
                 onPressed: () {
                   appState.toggleFavorite();
                 },
-                icon: Icon(icon),
-                label: Text('Like'),
+                icon: Icon(icon, color: theme.colorScheme.onPrimary),
+                label: Text('Like', style: TextStyle(color: theme.colorScheme.onPrimary)),
               ),
               SizedBox(width: 10),
               ElevatedButton(
                 onPressed: () {
                   appState.getNext();
                 },
-                
-                child: Text('Next', style: TextStyle(color: Color(0xFFfada06),)),
+                style: ElevatedButton.styleFrom(
+                  side: BorderSide(color: theme.colorScheme.onPrimary),
+                ),
+                child: Text('Next', style: TextStyle(color: theme.colorScheme.onPrimary)),
               ),
             ],
           ),
