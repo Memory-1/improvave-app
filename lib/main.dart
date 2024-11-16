@@ -1,9 +1,9 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:namer_app/Components/GamesPage2.dart';
 import 'package:provider/provider.dart';
 
 import 'Components/BigCard.dart';
-import 'Components/GamesPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
   static const ColorScheme darkColorScheme = ColorScheme(
     primary: Color.fromARGB(255, 0, 0, 0),
     secondary: Color(0xFFfada06),
-    surface: Color.fromARGB(255, 71, 58, 91),
+    surface: Color.fromARGB(255, 0, 0, 0),
+    // surface: Color.fromARGB(255, 71, 58, 91),
         // surface: Color(0XFF847424),
     onSurface: Color(0xFF1F1929),
     error: Colors.redAccent,
@@ -43,6 +44,14 @@ class MyApp extends StatelessWidget {
 
 class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
+
+  String? _searchString;
+  String? get searchString => _searchString;
+
+  void setCurrentValue(String changedString) {
+    _searchString = changedString;
+    notifyListeners();
+  }
 
   void getNext() {
     current = WordPair.random();
@@ -76,12 +85,12 @@ class _MyHomePageState extends State<MyHomePage> {
       case 0:
         page = GeneratorPage();
       case 1:
-        page = GamesList();
+        page = GamesPageReal();
       default:
         throw UnimplementedError('no widget for $_selectedIndex');
     }
 
-  void _onItemTapped(int index) {
+  void onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
     });
@@ -109,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
               selected: _selectedIndex == 0,
               onTap: () {
                 // Update the state of the app
-                _onItemTapped(0);
+                onItemTapped(0);
                 // Then close the drawer
                 Navigator.pop(context);
               },
@@ -119,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
               selected: _selectedIndex == 1,
               onTap: () {
                 // Update the state of the app
-                _onItemTapped(1);
+                onItemTapped(1);
                 // Then close the drawer
                 Navigator.pop(context);
               },
