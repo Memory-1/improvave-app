@@ -205,7 +205,8 @@ class GeneratorPage extends StatelessWidget {
                 onPressed: () {
                   appState.getNext();
                 },
-                child: Text('Next'),
+                
+                child: Text('Next', style: TextStyle(color: Color(0xFFfada06),)),
               ),
             ],
           ),
