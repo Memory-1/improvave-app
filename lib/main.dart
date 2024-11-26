@@ -98,8 +98,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return LayoutBuilder(builder: (context, constraints) {
       return Scaffold(
-        appBar: AppBar(title: Text("Improv Ave", style: TextStyle(color: Color(0xFFfada06)),)),
+        appBar: AppBar(iconTheme: IconThemeData(color: Color(0xFFfada06)), title: Text("Improv Ave", style: TextStyle(color: Color(0xFFfada06)),)),
         drawer: Drawer(
+      
         // Add a ListView to the drawer. This ensures the user can scroll
         // through the options in the drawer if there isn't enough vertical
         // space to fit everything.
@@ -147,12 +148,11 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
         body:
-            Expanded(
-              child: Container(
+          Container(
                 color: Theme.of(context).colorScheme.primaryContainer,
                 child: page,
               ),
-            ),
+
         );
     });
   }
