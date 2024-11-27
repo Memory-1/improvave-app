@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:namer_app/main.dart';
 import 'package:provider/provider.dart';
@@ -30,7 +33,7 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
   
   @override
   void initState() {
-    games = Game.getGames();
+    games = Game.getGamesFromJson("assets/games.json");
 
     super.initState();
   }
@@ -150,10 +153,24 @@ class Game {
 
   Game(this.name, this.tags, this.players, this.description, this.example);
 
-  static List<Game> getGames(String filepath){
-    
-    List<Game> games = [];
+  factory Game.fromJson(Map<String, dynamic> json) {
+    return Game(
+      json['name'],
+      List<String>.from(json['tags']),
+      json['players'],
+      json['description'],
+      json['example']
+    );
+  }
 
+  static List<Game> getGamesFromJson(String filepath){
+    
+    var response = File(filepath).readAsStringSync();
+
+
+    List<Game> games = (json.decode(response) as List)
+      .map((data) => Game.fromJson(data))
+      .toList();
     return games;
   }
 

@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Wall Sit of Doom",
+        "tags": [
+            "Mono Scene",
+            "Making Excuses"
+        ],
+        "players": "3-4",
+        "description": "A single scene is established. One player will always not be in the scene -- This player will be doing a wall sit on the side until someone from the scene makes up an excuse and leaves the scene. The player who left will take the place of the person wall sitting. This game continues until the wall sitter falls",
+        "example": "---"
+    },
+    {
+        "name": "Follow The Leaver",
+        "tags": [
+            "Long Form",
+            ""
+        ],
+        "players": "3+",
+        "description": "Normal scenes will take place. At some point either person in the scene will try to leave. Whoever leaves, we will follow them and start a new scene in the new location. Continue following the person who leaves the scene.",
+        "example": "Someone is at the grocery store checkout buying food and weird stuff happens. The checker gets offended and storms off. We then see the next scene taking place in the store breakroom where the checker is trying to cool off..."
+    },
+    {
+        "name": "One Line Fanfic",
+        "tags": [
+            "Group Game",
+            "Short Form"
+        ],
+        "players": "2+",
+        "description": "The MC will get a suggestion of two wildly different characters/people. The backline will then begin to create a fan fiction of the two suggestions by going down the line and each contributing a sentence to this new story. Play continues until the story reaches a conclusion. It can repeat back to the start of the backline. Look for a way that the story is able to resolve in some way. Around 12 lines will be for a good story, but that's just a recommendation",
+        "example": "JarJarBinks x Joe Biden: Player A) 'Joe... you're injured', said JarJar as he embraced Joe. Player B) 'JJ, Darth Vader has found us, we have to leave.' Player C) The sweat glistened on JarJar's brow as he took out a lightsaber - 'We aren't leaving here without a fight'... "
+    },
+    {
+        "name": "Acronyms",
+        "tags": [
+            "Short Form",
+            "Justification",
+            "Warmup"
+        ],
+        "players": "2-4",
+        "description": "One person says a word (preferably shorter), and everyone will take turns explaining what that word actually means by associating each letter with a word. Once the word has been defined everyone will repeat the Word and what each letter stands for together.",
+        "example": "'Duck' is the word suggested. Player A) disguised, Player B) underlings, Player C) creating  Player D) keyboards. Everyone) 'Duck - Disguised Underlings Creating Keyboards'"
+    },
+    {
+        "name": "Fortune Cookie",
+        "tags": [
+            "ShortFormGroup Game"
+        ],
+        "players": "Any",
+        "description": "You are creating some fortune cookie wisdom, one word at a time. Each player takes turn adding a word to the fortune. If someone feels that the fortune is complete they do little claps and say 'yes yes yes'.",
+        "example": "Each player adds a word something like this - 'if. you. find. yourself. in. a. portapotty. with. no. escape. remember. down. is. not. an. escape.  'yesyesyes' "
+    },
+    {
+        "name": "Favorite Character",
+        "tags": [
+            "grounding",
+            "character",
+            "creativity"
+        ],
+        "players": "Lots",
+        "description": "Think of a favorite childhood character. Then imagine a new character that you draw with all the skills of your 8 year old self. Think of what makes them special. Image all the colors and shapes.",
+        "example": "---"
+    },
+    {
+        "name": "Character Breathing",
+        "tags": [
+            "grounding",
+            "character"
+        ],
+        "players": "Lots",
+        "description": "Everyone closes their eyes. Imagine a certain character (archetype, emotion, attitude, etc). Begin to breathe how that person might breathe. As you go through this exercise, begin to hold yourself how this person may hold themselves.",
+        "example": "If I was imagining an old cowboy. I may take deep, heavy breaths. My brow may be furrowed from all the hard times I’ve spent on the range. I may be hunched over a bit from all the hard work I’ve done."
+    },
+    {
+        "name": "Dictionary",
+        "tags": [
+            "justification"
+        ],
+        "players": "Lots (2 at a time)",
+        "description": "Person A will make up a nonsensical word. Person B will give a definitive definition of Person’s A word.",
+        "example": "A: 'FlimFlam' B: 'FlimFlam. Noun. The stuff that sticks to the top of the tinfoil of a yogurt container.'"
+    },
+    {
+        "name": "Mind Meld",
+        "tags": [
+            "patterns",
+            "listening",
+            "guessing"
+        ],
+        "players": "Lots (2 at a time)",
+        "description": "All players get in a circle. The goal is for A and B to say the same word.  A and B will count down from 3 and then say a random word. If it is the same word – great! If not, B and C become a new pair. Continue around the circle trying to find a connection between the last pair of words.",
+        "example": "A says 'Tacos' and B says 'Weekend.' B says 'Tuesday' and C says 'Party.' C and D both say 'FRIDAY!'"
+    },
+    {
+        "name": "Who Who Where What Why Why (6 W's)",
+        "tags": [
+            "character",
+            "story"
+        ],
+        "players": "Lots (2 lines)",
+        "description": "Split into two lines, A says who they are. B says who they are. A says where they are at. B says what they’re both doing. A says how they feel. B says how they feel. Good exercise for writing and setting up a scene quickly.",
+        "example": "A: 'I am a dragon.' \\nB: 'I am a knight.' \\nA: 'We are at a drive-in movie theater' \\nB: 'We are sharing popcorn and our hands touch.' \\nA: 'I feel bashful, will a dragon and a knight work?' \\nB: 'I feel excited, this is my big shot!'"
+    },
+    {
+        "name": "Gift Exchange",
+        "tags": [
+            "character",
+            "justification",
+            "story"
+        ],
+        "players": "Lots (2 at a time)",
+        "description": "Similar to Questions Only, except with giving gifts. Gifts could include giving the other character a name, a detail or personality trait, a piece of backstory, etc. Try to give a gift with every line. Use a location for a prompt. Encourage the players to do scenes about characters who already know each other.",
+        "example": "A: 'Hey there Frank, thanks for coming with me to your favorite restaurant, Jersey Mike’s' \\nB: 'No prob, Bob. I'm just grateful you could get out of sword fencing to do this.' \\nA: 'Anything for you Frank. You're such a great friend, you're always letting people borrow your big truck.' \\nB: 'That's right, you always need it for your lumberjack job, so I'm happy to help.' \\nA: 'And you bring it to me even though you hate the outdoors! That's real friendship.'"
+    },
+    {
+        "name": "Revolver",
+        "tags": [
+            "character",
+            "story"
+        ],
+        "players": "4",
+        "description": "4 players, A, B, C & D, stand in a circle, with two (A and B) in front. The host gives them a prompt, then says 'Rotate' and everyone rotates clockwise. This set of two actors (B and C) is given a prompt, and so on (C and D, D and A) until you have four prompts for four separate scenes. Then, after a quick review of everyone’s prompts, the first set of actors, A and B, begins a scene. After a short time, the host calls 'Rotate,' and we rotate to see the next pair’s scene (B and C).",
+        "example": "---"
+    },
+    {
+        "name": "Ghost Court",
+        "tags": [
+            "justification",
+            "character"
+        ],
+        "players": "3 at a time",
+        "description": "Think of a show where people sue each other, like Judge Judy. The Judge will get a prompt/genre for what the type of court will be: Ghost, Fantasy RPG, Spy, Plumber, etc… Once the prompt is received, the Judge will introduce the Plaintiff. The Plaintiff states their case against the Defendant. The Defendant states why they are innocent, and the Judge asks a few follow up questions, then declares whether the Plaintiff wins or if the case is being thrown out. Tip: instead of saying 'no, that didn't happen,' say things like 'that may be true, but the only reason I'm haunting this house is because it's been in my house for generations!'",
+        "example": "---"
+    },
+    {
+        "name": "Number of Words",
+        "tags": [
+            "game"
+        ],
+        "players": "2 (+Host)",
+        "description": "The Host gives each player a specific number of words. 1-10 work best, but for a fun, spicy challenge you can throw out an absurd number like 30. The Players perform a scene, but every line they speak must contain exactly the amount of words that they've been given. Periodically, the Host can pause the game and change each player’s number of words.",
+        "example": ""
+    }
+]
