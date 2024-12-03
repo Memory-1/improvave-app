@@ -19,7 +19,7 @@ class TagContainer extends StatelessWidget {
               ),
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(8,4,8,4),
-                child: Center(child: Text(text, style: TextStyle(fontWeight: FontWeight.w800),)),
+                child: Center(child: Text(text, style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xFF1F1929)),)),
               ),
         ),
       );

@@ -1,9 +1,9 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
-import 'package:namer_app/Pages/games_page.dart';
+import 'package:namer_app/pages/games_page.dart';
 import 'package:provider/provider.dart';
 
-import 'Components/big_card.dart';
+import 'components/big_card.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
     surface: Color.fromARGB(255, 0, 0, 0),
     // surface: Color.fromARGB(255, 71, 58, 91),
         // surface: Color(0XFF847424),
-    onSurface: Color(0xFF1F1929),
+    // onSurface: Color(0xFF1F1929),
+    onSurface: Color(0xFFfada06),
     error: Colors.redAccent,
     onError: Colors.white,
     onPrimary: Color(0xFFfada06),

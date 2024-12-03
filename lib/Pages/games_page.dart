@@ -1,11 +1,9 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:namer_app/main.dart';
 import 'package:provider/provider.dart';
-import '../Components/games.dart';
-import 'detailspage.dart';
-import '../Components/tag_container.dart';
+import '../components/game.dart';
+import 'details_page.dart';
+import '../components/tag_container.dart';
 
 
 class GamesPageReal extends StatelessWidget {
@@ -50,7 +48,7 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
         padding: const EdgeInsets.symmetric(horizontal: 0.0),
         child: 
             ListenableBuilder(
-              listenable: searchNotifier(),
+              listenable: SearchNotifier(),
               builder: (context, child) {
                 return ListView.builder(
                   scrollDirection: Axis.vertical,
@@ -90,10 +88,10 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
 
     return Card(
       color: Color(0xFF1a1a1a),
-      child: ExpansionTile(
+      child: ListTile(
         key: UniqueKey(),
         trailing: Icon(
-                  Icons.keyboard_arrow_down,
+                  Icons.arrow_forward_ios,
                   color: Color(0xFFfada06)
                 ),
         title: 
@@ -108,11 +106,11 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
                 game.tags.map((tag) => TagContainer(tag, Color(0xFFfada06))).toList()            
             ),
 
-      children: <Widget>[
-        ListTile(title: Text('Players: ${game.players} \nDescription: ${game.description}\n\nExample: ${game.example}',),
-        textColor: Color(0xFFfada06),),
-        
-      ],
+      // children: <Widget>[
+      //   ListTile(title: Text('Players: ${game.players} \nDescription: ${game.description}\n\nExample: ${game.example}',),
+      //   textColor: Color(0xFFfada06),),  
+      // ],
+
         // title: Text(
         //   items.playerName,
         //   style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w500),
@@ -157,7 +155,7 @@ class SearchBar extends StatelessWidget {
   }
 }
 
-class searchNotifier extends ChangeNotifier {
+class SearchNotifier extends ChangeNotifier {
   String? _searchString;
   String? get searchString => _searchString;
 
