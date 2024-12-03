@@ -100,7 +100,7 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
 
       children: <Widget>[
         ListTile(title: Text('Players: ${game.players} \nDescription: ${game.description}\n\nExample: ${game.example}',),
-        textColor: Color(0xFFfada06),)
+        textColor: Color(0xFFfada06),),
         
       ],
         // title: Text(
