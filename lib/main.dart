@@ -1,9 +1,9 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
-import 'package:namer_app/Components/GamesPage2.dart';
+import 'package:namer_app/Pages/games_page.dart';
 import 'package:provider/provider.dart';
 
-import 'Components/BigCard.dart';
+import 'Components/big_card.dart';
 
 void main() {
   runApp(MyApp());
