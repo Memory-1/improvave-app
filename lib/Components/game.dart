@@ -21,9 +21,10 @@ class Game {
     );
   }
 
-  static List<Game> getGamesFromJson(String filepath){
+  static Future<List<Game>> getGamesFromJson(String filepath) async {
     
-    var response = File(filepath).readAsStringSync();
+    var response = await File(filepath).readAsString(); //I Should probably return the future and then let the Future builder handle it
+  
 
 
     List<Game> games = (json.decode(response) as List)
@@ -32,6 +33,13 @@ class Game {
     return games;
   }
 
+    static List<Game> getGamesFromString(String input)  {
+       
+    List<Game> games = (json.decode(input) as List)
+      .map((data) => Game.fromJson(data))
+      .toList();
+    return games;
+  }
   static List<Game> getGames() {
 
     List<Game> games = [

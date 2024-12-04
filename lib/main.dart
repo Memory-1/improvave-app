@@ -4,6 +4,7 @@ import 'package:namer_app/pages/games_page.dart';
 import 'package:provider/provider.dart';
 
 import 'components/big_card.dart';
+import 'pages/future_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -87,6 +88,8 @@ class _MyHomePageState extends State<MyHomePage> {
         page = GeneratorPage();
       case 1:
         page = GamesPageReal();
+      case 2:
+        page = FuturePage();
       default:
         throw UnimplementedError('no widget for $_selectedIndex');
     }
@@ -131,6 +134,16 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () {
                 // Update the state of the app
                 onItemTapped(1);
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text('Future', style:TextStyle(color: Color(0xFFfada06), fontWeight: FontWeight.bold)),
+              selected: _selectedIndex == 1,
+              onTap: () {
+                // Update the state of the app
+                onItemTapped(2);
                 // Then close the drawer
                 Navigator.pop(context);
               },
