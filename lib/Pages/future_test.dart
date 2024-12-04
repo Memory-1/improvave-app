@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/main.dart';
-import 'package:provider/provider.dart';
 import '../components/game.dart';
-import 'details_page.dart';
-import '../components/tag_container.dart';
 
 class FutureBuilderDemo extends StatelessWidget {
   @override

@@ -13,7 +13,7 @@ class ProductDetailsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Go Back", style: TextStyle(color: Color(0xFFfada06)),),
       ),
-      body: new DefaultTextStyle(
+      body: DefaultTextStyle(
         style: TextStyle(
           inherit: true,
           fontSize: 20, 

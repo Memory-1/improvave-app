@@ -1,10 +1,12 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:namer_app/pages/event_calendar.dart';
 import 'package:namer_app/pages/games_page.dart';
 import 'package:provider/provider.dart';
 
 import 'components/big_card.dart';
 import 'pages/future_test.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -89,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
       case 1:
         page = GamesPageReal();
       case 2:
-        page = FuturePage();
+        page = TestPage();
       default:
         throw UnimplementedError('no widget for $_selectedIndex');
     }
