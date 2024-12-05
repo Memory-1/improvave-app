@@ -2,26 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 class YoutubePlayerDemo extends StatelessWidget {
-  final videoId = "BJhF0L7pfo8";
   
-  // @override
-  // Widget build(BuildContext context) {
-  //   return(Text("hi"));
-  // }
+final String _videoId;
+late final YoutubePlayerController _controller;
 
-// If the requirement is just to play a single video.
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: "BJhF0L7pfo8",
+YoutubePlayerDemo(this._videoId) {
+  _controller = YoutubePlayerController.fromVideoId(
+    videoId: _videoId,
     autoPlay: false,
     params: const YoutubePlayerParams(showFullscreenButton: true),
   );
+}
 
 
   @override
   Widget build(BuildContext context) {
     return YoutubePlayer(
-      controller: _controller,
-      aspectRatio: 16 / 9,
+    controller: _controller,
+    aspectRatio: 16 / 9,
     );
   }
 }
