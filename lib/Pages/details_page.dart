@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namer_app/Components/youtube_player.dart';
 import '../components/game.dart'; // Import the Products class
 
 class ProductDetailsScreen extends StatelessWidget {
@@ -50,7 +51,14 @@ class ProductDetailsScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 16),
                 ),
                 SizedBox(height: 10),
-              
+                Container(
+                  child: Builder(builder: (context) {
+                    if (game.video!.isEmpty) {
+                      return Text("Empty");
+                    }
+
+                    return YoutubePlayerDemo(game.video!);
+                  }))
               ],
             ),
           ),

@@ -10,7 +10,7 @@ class TestPage extends StatelessWidget {
         title: Text("Test Page"),
       ),
       body: Center(
-        child: YoutubePlayerDemo()
+        child: YoutubePlayerDemo("BJhF0L7pfo8")
       ),
     );
   }

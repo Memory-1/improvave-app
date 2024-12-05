@@ -19,7 +19,7 @@ class Game {
       json['players'],
       json['description'],
       json['example'],
-      video: json['video'] ? json['video'] : null,
+      video: json['video'] ?? "",
     );
   }
 
