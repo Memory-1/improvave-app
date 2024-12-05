@@ -8,8 +8,9 @@ class Game {
   String players;
   String description;
   String example;
+  String? video;
 
-  Game(this.name, this.tags, this.players, this.description, this.example);
+  Game(this.name, this.tags, this.players, this.description, this.example, {this.video});
 
   factory Game.fromJson(Map<String, dynamic> json) {
     return Game(
@@ -17,7 +18,8 @@ class Game {
       List<String>.from(json['tags']),
       json['players'],
       json['description'],
-      json['example']
+      json['example'],
+      video: json['video'] ? json['video'] : null,
     );
   }
 
@@ -43,7 +45,7 @@ class Game {
   static List<Game> getGames() {
 
     List<Game> games = [
-    Game("Wingman", ["Hype"], "4", "Hype up the homies", "You lookin fly"),
+    Game("Wingman", ["Hype"], "4", "Hype up the homies", "You lookin fly", video: 'https://www.youtube.com/watch?v=BJhF0L7pfo8'),
     Game("Beastie Rap", ["Hype"], "2+", "set up rhymes for your friends","(Loud is suggestion) I'm high up in the sky like a CLOUD"),
     Game("What did you say", ["Rhyming","Scene Work"], "2", "Whenever someone says 'What did you say', the other person has to say a new sentence with a word that rhymes", "You look pretty denice \n What did you say? \n I said you look shitty"),
     Game("I Wish", ["Step-out", "Warmup"], "Any", "Everyone lines up and wishes for weird things. Either build off what others have said or start a new thread", "I wish my could do a backflip\nI wish all cars had a popcorn bucket holder"),
