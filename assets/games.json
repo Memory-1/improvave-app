@@ -7,8 +7,7 @@
         ],
         "players": "3-4",
         "description": "A single scene is established. One player will always not be in the scene -- This player will be doing a wall sit on the side until someone from the scene makes up an excuse and leaves the scene. The player who left will take the place of the person wall sitting. This game continues until the wall sitter falls",
-        "example": "---",
-        "video": "BJhF0L7pfo8"
+        "example": "---"
     },
     {
         "name": "Follow The Leaver",
@@ -140,5 +139,98 @@
         "players": "2 (+Host)",
         "description": "The Host gives each player a specific number of words. 1-10 work best, but for a fun, spicy challenge you can throw out an absurd number like 30. The Players perform a scene, but every line they speak must contain exactly the amount of words that they've been given. Periodically, the Host can pause the game and change each player’s number of words.",
         "example": ""
+    },
+    {
+        "name": "4 ways to die",
+        "tags": [
+            ""
+        ],
+        "players": "2-3 scenes",
+        "description": "Get 4 suggestions from the audience on different ways to die ranging from realistic to absurd. Players try to work a way into ",
+        "example": ","
+    },
+    {
+        "name": "A to B",
+        "tags": [
+            "warmup",
+            "association"
+        ],
+        "players": "Many",
+        "description": "players take turns saying the first thing that comes to their mind when hearing the previous player’s word. Go around the circle for 2 to 4 full rotations",
+        "example": "A) Dog, B) Treat, C) Icecream, D) Cold, A) Winter, etc…,"
+    },
+    {
+        "name": "A to C",
+        "tags": [
+            "warmup",
+            "association"
+        ],
+        "players": "Many",
+        "description": "Alternate to ‘A to B’, players take turns saying the second association from hearing the previous player’s word.  Go around the circle for 2 to 4 full rotations ",
+        "example": "If someone says ‘Tree’, the first thing in mind would be bark, and bark would make you think of dogs, so you say dog.,"
+    },
+    {
+        "name": "Alphabet Game",
+        "tags": [
+            "scenework"
+        ],
+        "players": "2",
+        "description": "Starting with any letter, players begin each line with the next sequential letter in the alphabet. Continue until you get back to the beginning letter.",
+        "example": "’Aliens are here!’, ‘Bet they’re here for our tatertots’, ‘Can’t believe we’ll be tater-less,"
+    },
+    {
+        "name": "Answering Machine",
+        "tags": [
+            "worldbuilding"
+        ],
+        "players": "2+",
+        "description": "Players take turns leaving a message on an answering machine for a character that they’re creating. Paint the actions of this mysterious person by showing the effects of their actions. Continue increasing the absurdity.",
+        "example": "Someone leaves a message for Mr. Rogers saying ‘Hey Mr Rogers, your tank is still parked in my front yard. Are you going to come get it?’,"
+    },
+    {
+        "name": "Categories",
+        "tags": [
+            "association"
+        ],
+        "players": "Many",
+        "description": "One player picks a topic and everyone will then go around adding things that fit into the topic",
+        "example": "Fast Food Items - Tacos, Burgers, Fries, Frosty,"
+    },
+    {
+        "name": "Don’t think about it",
+        "tags": [
+            "warmup"
+        ],
+        "players": "Many",
+        "description": "Similar to A-C, one player will start with any word. Players will go around the circle and try to say something that is NOT related to the previous word. This activity helps us to see that everything can be related in some way. Our minds are better at connections than we thing ",
+        "example": ","
+    },
+    {
+        "name": "Fortunately Unfortunately",
+        "tags": [
+            "justification"
+        ],
+        "players": "4 - 2 narrators, 2 actors",
+        "description": "The two players who are the narrators produce a story together. One role is ‘Fortunately’ and the other is ‘Unfortunately’. ‘Fortunately will give us an optimistic twist on the current situation. ‘Unfortunately’ gives a pessimistic twist. Each narrator will keep taking turns putting their twist on each other’s response. Make sure to keep progressing the story with each challenge/resolution and don’t get stuck in a loop trying to shut down the other person. Each narrator begins with ‘Fortunately/Unfortunately’",
+        "example": "Fortunately, Jared just won the lottery. Unfortunately, the mafia was here to get their cut. Fortunately, Jared had prepared for this and threw out his makeshift rope and descended his apartment building. etc…,"
+    },
+    {
+        "name": "Mumble Murder Mystery",
+        "tags": [
+            "guessing"
+        ],
+        "players": "4 (3 players, 1 mc)",
+        "description": "2 players will leave. The MC will get suggestions for a person, place, and how they died. One of the players who have left will return. The player who knows the information will then begin to pantomime. Players cannot use words, but they can mumble. Once the player guessing thinks they’ve figured out the three different aspects of the murder, they themselves kill the other person. Repeat this with the last player. Once the game is finished have the players repeat back what they thought each aspect was.",
+        "example": ","
+    },
+    {
+        "name": "Objection!/Experts",
+        "tags": [
+            "justification",
+            "stepout game"
+        ],
+        "players": "4+",
+        "description": "An MC will get a suggestion from the audience for what is the expertise of our experts. One player will step out and begin monologuing about the topic. At any time a backline player may call out ‘objection!’ and give a reason why what the current expert was saying was wrong. The MC will either sustain or overrule the objection.",
+        "example": ","
     }
 ]
