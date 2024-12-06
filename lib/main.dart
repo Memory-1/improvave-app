@@ -140,16 +140,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.pop(context);
               },
             ),
-            ListTile(
-              title: const Text('Future', style:TextStyle(color: Color(0xFFfada06), fontWeight: FontWeight.bold)),
-              selected: _selectedIndex == 1,
-              onTap: () {
-                // Update the state of the app
-                onItemTapped(2);
-                // Then close the drawer
-                Navigator.pop(context);
-              },
-            ),
+            
+            // ListTile(
+            //   title: const Text('Future', style:TextStyle(color: Color(0xFFfada06), fontWeight: FontWeight.bold)),
+            //   selected: _selectedIndex == 1,
+            //   onTap: () {
+            //     // Update the state of the app
+            //     onItemTapped(2);
+            //     // Then close the drawer
+            //     Navigator.pop(context);
+            //   },
+            // ),
+
+
             // ListTile(
             //   title: const Text('School'),
             //   selected: _selectedIndex == 2,
