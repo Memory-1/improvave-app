@@ -183,7 +183,8 @@ class GeneratorPage extends StatelessWidget {
     final theme = Theme.of(context);
     final style = theme.textTheme.displayMedium!.copyWith(
       color: theme.colorScheme.onPrimary,
-      
+      fontSize: 36,
+      decoration: TextDecoration.underline,
     );
 
     IconData icon;
@@ -204,7 +205,11 @@ class GeneratorPage extends StatelessWidget {
               child: Center(child: Text("Random Word Suggestion", textAlign: TextAlign.center ,style: style)),
             ),
           ),
-          BigCard(pair: pair),
+          
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: BigCard(pair: pair),
+          ),
           SizedBox(height: 10),
           Row(
             mainAxisSize: MainAxisSize.min,
