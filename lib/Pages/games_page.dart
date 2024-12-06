@@ -210,6 +210,10 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
 
           else if (snapshot.hasData) {
             var games = Game.getGamesFromString(snapshot.data.toString());
+            games.sort((a, b) => a.name.compareTo(b.name));
+            for (var game in games) {
+              game.tags.sort();
+            }
 
             return Scaffold(
               body: Padding(
@@ -253,8 +257,17 @@ class _ExpansionTileDemoState extends State<ExpansionTileDemo> {
     if (filter != null && filter.isNotEmpty) {
       var tempFilter = filter.toLowerCase();
       var tempGameName = game.name.toLowerCase();
+      var tempGameTags = game.tags.map((tag) => tag.toLowerCase()).toList();
 
-      if (!tempGameName.contains(tempFilter)) {
+      bool tagContainsFilter = false;
+      for (var tag in tempGameTags) {
+        if (tag.contains(tempFilter)) {
+          tagContainsFilter = true;
+          break;
+        }
+      }
+
+      if (!tempGameName.contains(tempFilter) && !tagContainsFilter) {
         print('Filtering out ${game.name}');
         return Container();
       }

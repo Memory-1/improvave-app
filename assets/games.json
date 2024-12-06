@@ -2,8 +2,8 @@
     {
         "name": "Wall Sit of Doom",
         "tags": [
-            "Mono Scene",
-            "Making Excuses"
+            "justification",
+            "story"
         ],
         "players": "3-4",
         "description": "A single scene is established. One player will always not be in the scene -- This player will be doing a wall sit on the side until someone from the scene makes up an excuse and leaves the scene. The player who left will take the place of the person wall sitting. This game continues until the wall sitter falls",
@@ -12,8 +12,8 @@
     {
         "name": "Follow The Leaver",
         "tags": [
-            "Long Form",
-            ""
+            "justification",
+            "story "
         ],
         "players": "3+",
         "description": "Normal scenes will take place. At some point either person in the scene will try to leave. Whoever leaves, we will follow them and start a new scene in the new location. Continue following the person who leaves the scene.",
@@ -22,8 +22,9 @@
     {
         "name": "One Line Fanfic",
         "tags": [
-            "Group Game",
-            "Short Form"
+            "listening",
+            "game",
+            "story"
         ],
         "players": "2+",
         "description": "The MC will get a suggestion of two wildly different characters/people. The backline will then begin to create a fan fiction of the two suggestions by going down the line and each contributing a sentence to this new story. Play continues until the story reaches a conclusion. It can repeat back to the start of the backline. Look for a way that the story is able to resolve in some way. Around 12 lines will be for a good story, but that's just a recommendation",
@@ -32,9 +33,9 @@
     {
         "name": "Acronyms",
         "tags": [
-            "Short Form",
-            "Justification",
-            "Warmup"
+            "game",
+            "creativity",
+            "listening"
         ],
         "players": "2-4",
         "description": "One person says a word (preferably shorter), and everyone will take turns explaining what that word actually means by associating each letter with a word. Once the word has been defined everyone will repeat the Word and what each letter stands for together.",
@@ -43,7 +44,9 @@
     {
         "name": "Fortune Cookie",
         "tags": [
-            "ShortFormGroup Game"
+            "game",
+            "listening",
+            "creativity"
         ],
         "players": "Any",
         "description": "You are creating some fortune cookie wisdom, one word at a time. Each player takes turn adding a word to the fortune. If someone feels that the fortune is complete they do little claps and say 'yes yes yes'.",
@@ -73,7 +76,10 @@
     {
         "name": "Dictionary",
         "tags": [
-            "justification"
+            "justification",
+            "listening",
+            "creativity",
+            "game"
         ],
         "players": "Lots (2 at a time)",
         "description": "Person A will make up a nonsensical word. Person B will give a definitive definition of Person’s A word.",
@@ -84,7 +90,8 @@
         "tags": [
             "patterns",
             "listening",
-            "guessing"
+            "guessing",
+            "game"
         ],
         "players": "Lots (2 at a time)",
         "description": "All players get in a circle. The goal is for A and B to say the same word.  A and B will count down from 3 and then say a random word. If it is the same word – great! If not, B and C become a new pair. Continue around the circle trying to find a connection between the last pair of words.",
@@ -134,7 +141,8 @@
     {
         "name": "Number of Words",
         "tags": [
-            "game"
+            "game",
+            "story"
         ],
         "players": "2 (+Host)",
         "description": "The Host gives each player a specific number of words. 1-10 work best, but for a fun, spicy challenge you can throw out an absurd number like 30. The Players perform a scene, but every line they speak must contain exactly the amount of words that they've been given. Periodically, the Host can pause the game and change each player’s number of words.",
@@ -143,7 +151,9 @@
     {
         "name": "4 ways to die",
         "tags": [
-            ""
+            "creativity",
+            "story",
+            "listening"
         ],
         "players": "2-3 scenes",
         "description": "Get 4 suggestions from the audience on different ways to die ranging from realistic to absurd. Players try to work a way into ",
@@ -152,8 +162,8 @@
     {
         "name": "A to B",
         "tags": [
-            "warmup",
-            "association"
+            "listening",
+            "pattern"
         ],
         "players": "Many",
         "description": "players take turns saying the first thing that comes to their mind when hearing the previous player’s word. Go around the circle for 2 to 4 full rotations",
@@ -162,8 +172,8 @@
     {
         "name": "A to C",
         "tags": [
-            "warmup",
-            "association"
+            "listening",
+            "pattern"
         ],
         "players": "Many",
         "description": "Alternate to ‘A to B’, players take turns saying the second association from hearing the previous player’s word.  Go around the circle for 2 to 4 full rotations ",
@@ -172,7 +182,7 @@
     {
         "name": "Alphabet Game",
         "tags": [
-            "scenework"
+            "game"
         ],
         "players": "2",
         "description": "Starting with any letter, players begin each line with the next sequential letter in the alphabet. Continue until you get back to the beginning letter.",
@@ -181,7 +191,9 @@
     {
         "name": "Answering Machine",
         "tags": [
-            "worldbuilding"
+            "story",
+            "character",
+            "listening"
         ],
         "players": "2+",
         "description": "Players take turns leaving a message on an answering machine for a character that they’re creating. Paint the actions of this mysterious person by showing the effects of their actions. Continue increasing the absurdity.",
@@ -190,7 +202,8 @@
     {
         "name": "Categories",
         "tags": [
-            "association"
+            "listening",
+            "pattern"
         ],
         "players": "Many",
         "description": "One player picks a topic and everyone will then go around adding things that fit into the topic",
@@ -199,7 +212,8 @@
     {
         "name": "Don’t think about it",
         "tags": [
-            "warmup"
+            "grounding",
+            "pattern"
         ],
         "players": "Many",
         "description": "Similar to A-C, one player will start with any word. Players will go around the circle and try to say something that is NOT related to the previous word. This activity helps us to see that everything can be related in some way. Our minds are better at connections than we thing ",
@@ -208,7 +222,8 @@
     {
         "name": "Fortunately Unfortunately",
         "tags": [
-            "justification"
+            "justification",
+            "story"
         ],
         "players": "4 - 2 narrators, 2 actors",
         "description": "The two players who are the narrators produce a story together. One role is ‘Fortunately’ and the other is ‘Unfortunately’. ‘Fortunately will give us an optimistic twist on the current situation. ‘Unfortunately’ gives a pessimistic twist. Each narrator will keep taking turns putting their twist on each other’s response. Make sure to keep progressing the story with each challenge/resolution and don’t get stuck in a loop trying to shut down the other person. Each narrator begins with ‘Fortunately/Unfortunately’",
@@ -217,7 +232,9 @@
     {
         "name": "Mumble Murder Mystery",
         "tags": [
-            "guessing"
+            "guessing",
+            "listening",
+            "pantomime"
         ],
         "players": "4 (3 players, 1 mc)",
         "description": "2 players will leave. The MC will get suggestions for a person, place, and how they died. One of the players who have left will return. The player who knows the information will then begin to pantomime. Players cannot use words, but they can mumble. Once the player guessing thinks they’ve figured out the three different aspects of the murder, they themselves kill the other person. Repeat this with the last player. Once the game is finished have the players repeat back what they thought each aspect was.",
@@ -227,7 +244,7 @@
         "name": "Objection!/Experts",
         "tags": [
             "justification",
-            "stepout game"
+            "game"
         ],
         "players": "4+",
         "description": "An MC will get a suggestion from the audience for what is the expertise of our experts. One player will step out and begin monologuing about the topic. At any time a backline player may call out ‘objection!’ and give a reason why what the current expert was saying was wrong. The MC will either sustain or overrule the objection.",
