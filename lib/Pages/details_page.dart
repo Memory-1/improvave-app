@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/Components/youtube_player.dart';
+import 'package:improv_ave/Components/youtube_player.dart';
 import '../components/game.dart'; // Import the Products class
 
 class ProductDetailsScreen extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/main.dart';
+import 'package:improv_ave/main.dart';
 import 'package:provider/provider.dart';
 import '../components/game.dart';
 import 'details_page.dart';

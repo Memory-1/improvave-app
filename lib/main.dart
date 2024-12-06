@@ -1,7 +1,7 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
-import 'package:namer_app/pages/event_calendar.dart';
-import 'package:namer_app/pages/games_page.dart';
+import 'package:improv_ave/pages/event_calendar.dart';
+import 'package:improv_ave/pages/games_page.dart';
 import 'package:provider/provider.dart';
 
 import 'components/big_card.dart';
